@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
+
+.web-design {
+  font-family: "Jost", sans-serif;
+}
+.header {
+  position: relative;
+  overflow: hidden;
+  background-color: #e7816b;
+  margin-bottom: 96px;
+}
+.single-circle {
+  position: absolute;
+  top: 5%;
+  right: calc(70% - 150px);
+  transform: translateX(68.9%);
+  z-index: 1;
+}
+.header-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 105px;
+  margin-bottom: 105px;
+  margin-inline: 24px;
+  z-index: 2;
+}
+.header-details h2 {
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0px;
+  font-weight: medium;
+  text-transform: capitalize;
+}
+.header-details p {
+  margin-top: 24px;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  font-weight: regular;
+}
+.web-design-card {
+  margin-top: 40px;
+}
+.web-design-card-image {
+  margin-inline: 24px;
+}
+.web-design-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-inline: 53px;
+}
+.web-design-card-details h2 {
+  font-size: 20px;
+  font-weight: medium;
+  letter-spacing: 5px;
+  color: #e7816b;
+  text-transform: uppercase;
+}
+.web-design-card-details p {
+  font-size: 16px;
+  font-weight: regular;
+  letter-spacing: 0px;
+  color: #333136;
+}
